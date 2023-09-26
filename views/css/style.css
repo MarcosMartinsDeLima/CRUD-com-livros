@@ -1,0 +1,97 @@
+*{
+    font-family: helvetica;
+}
+
+body{
+    background-color: #f0eded;
+}
+
+h1{
+    text-align: center;
+}
+
+#nav-bar{
+    border-bottom: 1px solid #ccc;
+    padding: .5em;
+    margin-bottom: 1em;
+    background-color: #ccc;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+}
+.navbar-a{
+    text-decoration: none;
+    
+}
+
+#nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+#nav-bar ul li {
+    margin-left: 1em;
+}
+
+form,.books-container{
+    width: 450px;
+    margin: 0 auto;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+    
+}
+
+.form-control label{
+    font: bold;
+    margin-bottom: .3em;
+}
+
+.form-control input{
+    padding: 5px;
+}
+
+.books-container div{
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px
+}
+.cadastrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bold{
+    font-weight: bold;
+}
+
+#book{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+#book-page{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.container{
+    text-align: center;
+}
+
+.actions{
+    margin-top: 1em;
+    text-decoration: none; 
+}
+
+.remover{
+    margin-top: 2em;
+    background-color: rgb(167, 53, 53);
+    border-radius: 10px;
+    color: #ffff;
+}
